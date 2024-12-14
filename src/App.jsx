@@ -7,7 +7,7 @@ import Contact from "./components/contact";
 import { MENU_OPTIONS, BASE_PATH, PATHS } from "./constants";
 import Members from "./components/members";
 import Gallery from "./components/gallery";
-
+//
 function App() {
     return (
         <Router>
