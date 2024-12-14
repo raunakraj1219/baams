@@ -9,14 +9,14 @@ const Navbar = () => {
     return (
         <nav className="flex p-5 flex-wrap justify-between items-center shadow-md border-b border-gray-200 bg-[#e9edf5] sticky top-0">
             <Link to={BASE_PATH}>
-                <div className="text-sm font-semibold">🎍Baams</div>
+                <div className="text-base font-semibold">🎍Baams</div>
             </Link>
 
-            <div className="flex justify-around gap-2">
+            <div className="flex justify-around gap-3">
                 {Object.values(MENU_OPTIONS).map((opt, i) => (
                     <Link to={PATHS[opt]} key={i}>
                         <div
-                            className="cursor-pointer text-xs"
+                            className="cursor-pointer text-sm"
                             key={i}
                             onClick={() => handleNavItemClick(opt)}
                         >

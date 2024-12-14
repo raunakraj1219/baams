@@ -1,15 +1,12 @@
 import React from "react";
 import { IMAGE_URLS } from "../constants/urls";
 import { BASE_PATH } from "../constants";
-//
+import coverImage from "../assets/images/cover-image.jpg";
+
 const Home = () => {
     return (
         <div className="p-0">
-            <img
-                src={`${BASE_PATH}src/assets/images/cover-image.jpg`}
-                alt="cover-image"
-                className=""
-            />
+            <img src={coverImage} alt="cover-image" className="" />
             <section className="text-center p-4">
                 <header className="text-xl font-semibold">
                     Baams Parivaar

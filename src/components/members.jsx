@@ -1,5 +1,7 @@
 import React from "react";
-import { BASE_PATH } from "../constants";
+import { BASE_PATH, MEMBERS_FORMAL_NAME, MEMBERS_NAME } from "../constants";
+import ultraMemberImage from "../assets/images/ultra/ultra-member.jpeg";
+import ashikMemberImage from "../assets/images/ashik/ashik-member.jpeg";
 
 const Members = () => {
     return (
@@ -9,22 +11,23 @@ const Members = () => {
             </header>
             <main className="flex flex-col gap-8">
                 <section className="text-center flex flex-col gap-3">
-                    <h2>Ultra Baams (Chitranshu Ranjan)</h2>
-                    <img
-                        src={`${BASE_PATH}src/assets/images/ultra/ultra-member.jpeg`}
-                        className=""
-                    />
+                    <h2>
+                        {MEMBERS_NAME.ULTRA} ({MEMBERS_FORMAL_NAME.ULTRA})
+                    </h2>
+                    <img src={ultraMemberImage} className="" />
                 </section>
                 <hr />
                 <section className="text-center flex flex-col gap-3">
-                    <h2>Ashik Baams (Kirti Vardhan) </h2>
-                    <img
-                        src={`${BASE_PATH}src/assets/images/ashik/ashik-member.jpeg`}
-                    />
+                    <h2>
+                        {MEMBERS_NAME.ASHIK} ({MEMBERS_FORMAL_NAME.ASHIK})
+                    </h2>
+                    <img src={ashikMemberImage} />
                 </section>
                 <hr />
                 <section className="text-center flex flex-col gap-3">
-                    <h2>Bana Baams (Raunak Raj)</h2>
+                    <h2>
+                        {MEMBERS_NAME.BANA} ({MEMBERS_FORMAL_NAME.BANA})
+                    </h2>
                     <img
                         src={`${BASE_PATH}src/assets/images/bana/bana-member.jpeg`}
                     />

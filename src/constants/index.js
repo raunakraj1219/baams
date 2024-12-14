@@ -1,8 +1,21 @@
-export const MEMBERS = {
-    CR: "Chitranshu Ranjan",
-    KV: "Kirti Vardhan",
-    RR: "Raunak Raj"
+export const MEMBERS_NAME = {
+    ULTRA: "Ultra Baams",
+    ASHIK: "Ashik Baams",
+    BANA: "Bana Baams",
 }
+
+export const MEMBERS_FORMAL_NAME = {
+    ULTRA: "Chitranshu Ranjan",
+    ASHIK: "Kirti Vardhan",
+    BANA: "Raunak Raj",
+}
+
+
+// export const MEMBERS = {
+//     CR: "Chitranshu Ranjan",
+//     KV: "Kirti Vardhan",
+//     RR: "Raunak Raj"
+// }
 export const MENU_OPTIONS = {
     ABOUT: "About",
     MEMBERS: "Members",
