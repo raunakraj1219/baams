@@ -7,9 +7,9 @@ const Navbar = () => {
         console.log("click");
     };
     return (
-        <nav className="flex p-5 flex-wrap justify-between items-center shadow-md border-b border-gray-200">
+        <nav className="flex p-5 flex-wrap justify-between items-center shadow-md border-b border-gray-200 bg-[#e9edf5] sticky top-0">
             <Link to={BASE_PATH}>
-                <div className="text-sm">🎍Baams</div>
+                <div className="text-sm font-semibold">🎍Baams</div>
             </Link>
 
             <div className="flex justify-around gap-2">
