@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-    return <div className="text-xl">Baams</div>;
+    return <div className="text-xl">Baams ----</div>;
 }
 
 export default App;
