@@ -15,21 +15,25 @@ const Members = () => {
                     <h2>
                         {MEMBERS_NAME.ULTRA} ({MEMBERS_FORMAL_NAME.ULTRA})
                     </h2>
-                    <img src={ultraMemberImage} className="" />
+                    <img
+                        src={ultraMemberImage}
+                        className=""
+                        alt="ultra-image"
+                    />
                 </section>
                 <hr />
                 <section className="text-center flex flex-col gap-3">
                     <h2>
                         {MEMBERS_NAME.ASHIK} ({MEMBERS_FORMAL_NAME.ASHIK})
                     </h2>
-                    <img src={ashikMemberImage} />
+                    <img src={ashikMemberImage} alt="ashik-image" />
                 </section>
                 <hr />
                 <section className="text-center flex flex-col gap-3">
                     <h2>
                         {MEMBERS_NAME.BANA} ({MEMBERS_FORMAL_NAME.BANA})
                     </h2>
-                    <img src={banaMemberImage} />
+                    <img src={banaMemberImage} alt="bana-image" />
                 </section>
             </main>
         </div>
