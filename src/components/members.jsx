@@ -2,6 +2,7 @@ import React from "react";
 import { BASE_PATH, MEMBERS_FORMAL_NAME, MEMBERS_NAME } from "../constants";
 import ultraMemberImage from "../assets/images/ultra/ultra-member.jpeg";
 import ashikMemberImage from "../assets/images/ashik/ashik-member.jpeg";
+import banaMemberImage from "../assets/images/bana/bana-member.jpeg";
 
 const Members = () => {
     return (
@@ -28,9 +29,7 @@ const Members = () => {
                     <h2>
                         {MEMBERS_NAME.BANA} ({MEMBERS_FORMAL_NAME.BANA})
                     </h2>
-                    <img
-                        src={`${BASE_PATH}src/assets/images/bana/bana-member.jpeg`}
-                    />
+                    <img src={banaMemberImage} />
                 </section>
             </main>
         </div>

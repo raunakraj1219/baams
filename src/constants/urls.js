@@ -1,4 +1,4 @@
-import { API_KEY, MEMBERS, MEMBERS_NAME } from ".";
+import { API_KEY, MEMBERS_NAME } from ".";
 
 export const LINKEDIN_URLS = {
     [MEMBERS_NAME.ULTRA]: "https://www.linkedin.com/in/chitranshu-ranjan-09/",
