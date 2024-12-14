@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="p-0">
             <img
-                src={`${BASE_PATH}/src/assets/images/cover-image.jpg`}
+                src={`${BASE_PATH}src/assets/images/cover-image.jpg`}
                 alt="cover-image"
                 className=""
             />

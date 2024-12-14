@@ -11,7 +11,7 @@ const Members = () => {
                 <section className="text-center flex flex-col gap-3">
                     <h2>Ultra Baams (Chitranshu Ranjan)</h2>
                     <img
-                        src={`${BASE_PATH}/src/assets/images/ultra/ultra-member.jpeg`}
+                        src={`${BASE_PATH}src/assets/images/ultra/ultra-member.jpeg`}
                         className=""
                     />
                 </section>
@@ -19,14 +19,14 @@ const Members = () => {
                 <section className="text-center flex flex-col gap-3">
                     <h2>Ashik Baams (Kirti Vardhan) </h2>
                     <img
-                        src={`${BASE_PATH}/src/assets/images/ashik/ashik-member.jpeg`}
+                        src={`${BASE_PATH}src/assets/images/ashik/ashik-member.jpeg`}
                     />
                 </section>
                 <hr />
                 <section className="text-center flex flex-col gap-3">
                     <h2>Bana Baams (Raunak Raj)</h2>
                     <img
-                        src={`${BASE_PATH}/src/assets/images/bana/bana-member.jpeg`}
+                        src={`${BASE_PATH}src/assets/images/bana/bana-member.jpeg`}
                     />
                 </section>
             </main>
