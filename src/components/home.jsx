@@ -1,7 +1,7 @@
 import React from "react";
 import { IMAGE_URLS } from "../constants/urls";
 import { BASE_PATH } from "../constants";
-
+//
 const Home = () => {
     return (
         <div className="p-0">
