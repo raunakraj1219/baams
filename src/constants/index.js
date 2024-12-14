@@ -11,13 +11,13 @@ export const MENU_OPTIONS = {
 
 }
 
-export const PARENT_ROUTE = "/baams"
+export const BASE_PATH = "/baams/"
 
 export const PATHS = {
-    [MENU_OPTIONS.ABOUT]: `${PARENT_ROUTE}/about`,
-    [MENU_OPTIONS.MEMBERS]: `${PARENT_ROUTE}/members`,
-    [MENU_OPTIONS.CONTACT]: `${PARENT_ROUTE}/contact`,
-    [MENU_OPTIONS.GALLERY]: `${PARENT_ROUTE}/gallery`,
+    [MENU_OPTIONS.ABOUT]: `${BASE_PATH}about`,
+    [MENU_OPTIONS.MEMBERS]: `${BASE_PATH}members`,
+    [MENU_OPTIONS.CONTACT]: `${BASE_PATH}contact`,
+    [MENU_OPTIONS.GALLERY]: `${BASE_PATH}gallery`,
 }
 
 

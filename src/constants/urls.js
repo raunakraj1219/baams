@@ -8,7 +8,8 @@ export const LINKEDIN_URLS = {
 
 
 export const IMAGE_URLS = {
-    COVER_IMAGE1: "https://drive.google.com/uc?export=view&id=1FhzHosj1a_ipevQ5_uyPCEozPRh0-bhC",
     COVER_IMAGE: `https://www.googleapis.com/drive/v3/files/1FhzHosj1a_ipevQ5_uyPCEozPRh0-bhC?alt=media&key=${API_KEY}`
 };
 
+// COVER_IMAGE1: "https://drive.google.com/uc?export=view&id=1FhzHosj1a_ipevQ5_uyPCEozPRh0-bhC",
+// https://drive.google.com/file/d/1FhzHosj1a_ipevQ5_uyPCEozPRh0-bhC/view?usp=sharing
