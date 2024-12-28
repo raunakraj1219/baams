@@ -35,3 +35,5 @@ export const PATHS = {
 
 
 export const API_KEY = "AIzaSyDH4uMwsldj-WVifH7Wwf6Mc7luVFCa3SQ";
+
+export const MOBILE_BREAKPOINT = 768;
