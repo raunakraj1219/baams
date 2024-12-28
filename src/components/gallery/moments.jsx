@@ -9,7 +9,8 @@ const Moments = ({ type }) => {
                 <img
                     src={url}
                     key={key}
-                    className="w-full h-[300px] object-cover border-2 border-black mx-0.25 rounded-md"
+                    className="w-full h-[300px] object-cover border-2 border-black mx-0.5 rounded-md shadow-lg"
+                    // className="w-full h-[300px] object-cover border-2 border-black rounded-md shadow-lg transform transition-transform duration-300 hover:rotate-x-6 hover:rotate-y-6 hover:shadow-2xl"
                 />
             ))}
         </main>

@@ -5,7 +5,7 @@ import { IMAGE_URLS } from "../constants/urls";
 const Members = () => {
     return (
         <div className="text-center p-4">
-            <header className="text-xl font-semibold text-underline mb-10">
+            <header className="text-xl font-semibold text-underline my-10">
                 Members of Baams Parivaar
             </header>
             <main className="flex flex-col gap-8">
