@@ -9,13 +9,17 @@ export const MEMBERS_FORMAL_NAME = {
     ASHIK: "Kirti Vardhan",
     BANA: "Raunak Raj",
 }
+export const EMAILS = {
+    ULTRA: "chitranshu47@gmail.com",
+    ASHIK: "kirtivardhan2000@gmail.com",
+    BANA: "raunakraj1219@gmail.com",
+}
+export const CONTACT_NUMBERS = {
+    ULTRA: "+91-8207279999",
+    ASHIK: "+91-9117691398",
+    BANA: "+91-9097856670",
+}
 
-
-// export const MEMBERS = {
-//     CR: "Chitranshu Ranjan",
-//     KV: "Kirti Vardhan",
-//     RR: "Raunak Raj"
-// }
 export const MENU_OPTIONS = {
     ABOUT: "About",
     MEMBERS: "Members",

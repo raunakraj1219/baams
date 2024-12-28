@@ -17,7 +17,6 @@ const Home = () => {
     return (
         <div className="p-0">
             <img src={IMAGE_URLS.COVER_IMAGE} alt="cover-image" className="" />
-            NEW
             <section className="text-center p-4">
                 <header className="text-xl font-semibold">
                     Baams Parivaar

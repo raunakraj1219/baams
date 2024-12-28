@@ -38,7 +38,7 @@ const Gallery = () => {
                         key={key}
                         onClick={() => handleMomentsSectionClick(item)}
                     >
-                        <div className="text-[#0000EE] cursor-pointer underline shadow-md border-b border-gray-200 bg-[#e9edf5] py-6 text-xl">
+                        <div className="text-[#0000EE] cursor-pointer shadow-md border-b border-gray-200 bg-[#e9edf5] py-6 text-xl font-semibold">
                             {MOMENTS_SECTIONS[item]}
                         </div>
                     </section>

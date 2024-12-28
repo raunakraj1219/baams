@@ -14,6 +14,11 @@ export const IMAGE_URLS = {
         [MEMBERS_NAME.ASHIK]: "https://res.cloudinary.com/dybxzpvrp/image/upload/v1735365731/ashik-member_ctbt6k.jpg",
         [MEMBERS_NAME.BANA]: "https://res.cloudinary.com/dybxzpvrp/image/upload/v1735365746/bana-member_jz9pqc.jpg",
     },
+    CONTACT_IMAGE: {
+        [MEMBERS_NAME.ULTRA]: "https://res.cloudinary.com/dybxzpvrp/image/upload/v1735386142/ultra_xiwpfc.jpg",
+        [MEMBERS_NAME.ASHIK]: "https://res.cloudinary.com/dybxzpvrp/image/upload/v1735386118/ashik_byunbz.jpg",
+        [MEMBERS_NAME.BANA]: "https://res.cloudinary.com/dybxzpvrp/image/upload/v1735386130/bana_fgctgs.jpg",
+    },
     MOMENTS_IMAGES: {
         [MOMENTS_SECTIONS.PARIVAAR]: [
             "https://res.cloudinary.com/dybxzpvrp/image/upload/v1735380778/WhatsApp_Image_2024-12-28_at_15.42.11_dljpxl.jpg",

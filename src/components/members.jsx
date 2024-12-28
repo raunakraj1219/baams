@@ -15,7 +15,7 @@ const Members = () => {
                     </h2>
                     <img
                         src={IMAGE_URLS.MEMBERS_IMAGE[MEMBERS_NAME.ULTRA]}
-                        className=""
+                        className="rounded-[20px] h-[420px] object-cover"
                         alt="ultra-image"
                     />
                 </section>
@@ -27,6 +27,7 @@ const Members = () => {
                     <img
                         src={IMAGE_URLS.MEMBERS_IMAGE[MEMBERS_NAME.ASHIK]}
                         alt="ashik-image"
+                        className="rounded-[20px] h-[420px] object-cover"
                     />
                 </section>
                 <hr />
@@ -37,6 +38,7 @@ const Members = () => {
                     <img
                         src={IMAGE_URLS.MEMBERS_IMAGE[MEMBERS_NAME.BANA]}
                         alt="bana-image"
+                        className="rounded-[20px] h-[420px] object-cover"
                     />
                 </section>
             </main>
