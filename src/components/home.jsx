@@ -6,6 +6,8 @@ import useIsDesktop from "../hooks/use-is-desktop";
 
 const Home = () => {
     const isDesktop = useIsDesktop();
+    // const tURL =
+    //     "https://res.cloudinary.com/dybxzpvrp/image/upload/v1735364569/cover-image_fb9ebg.jpg";
     useEffect(() => {
         if (isDesktop)
             alert(
@@ -14,7 +16,8 @@ const Home = () => {
     }, [isDesktop]);
     return (
         <div className="p-0">
-            <img src={coverImage} alt="cover-image" className="" />
+            <img src={IMAGE_URLS.COVER_IMAGE} alt="cover-image" className="" />
+            NEW
             <section className="text-center p-4">
                 <header className="text-xl font-semibold">
                     Baams Parivaar
