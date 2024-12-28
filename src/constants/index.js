@@ -24,6 +24,13 @@ export const MENU_OPTIONS = {
 
 }
 
+export const MOMENTS_SECTIONS = {
+    PARIVAAR: "Parivaar",
+    ULTRA_ASHIK: "Ultra and Ashik",
+    ASHIK_BANA: "Ashik and Bana",
+    BANA_ULTRA: "Bana and Ultra"
+}
+
 export const BASE_PATH = "/baams/"
 
 export const PATHS = {
