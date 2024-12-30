@@ -14,7 +14,6 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path={BASE_PATH} element={<Home />} />
-                {/* <Route path={PATHS[MENU_OPTIONS.ABOUT]} element={<About />} /> */}
                 <Route path={PATHS[MENU_OPTIONS.ABOUT]} element={<Home />} />
                 <Route
                     path={PATHS[MENU_OPTIONS.MEMBERS]}
